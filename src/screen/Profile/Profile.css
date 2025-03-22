@@ -1,0 +1,82 @@
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family:
+    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+  border: 1px solid white;
+  width: 150px !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+input[type='date'] {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+select {
+  width: 13.6rem;
+  border-radius: 5px !important;
+  padding: 5px !important;
+}
+input[type='submit'] {
+  width: 7rem;
+  background-color: white;
+  border: 1px solid white;
+  color: #4b3075;
+  
+}
+input[type='submit']:hover {
+  background-color: #4b3075;
+  border: 1px solid white;
+}
+select {
+  width: 150px !important;
+  border-radius: 6px !important;
+}
+.loginButton {
+  /* background-color: #4b3075; */
+  border: 1px solid white;
+  color: #4b3075;
+  font-weight: 600;
+}
+.loginButton:hover{
+  border: 2px solid #4b3075 !important;
+  color: #4b3075;
+  padding: 5px;
+  border-radius: 5px;
+}
+.backGround {
+  height: 100vh;
+}
+.registartion {
+  width: 30%;
+  margin-top: auto;
+  background-color: #4b3075;
+  border-radius: 23px;
+  color: white;
+  /* box-shadow: 10px 4px 20px 4px black; */
+  padding: 20px;
+  box-shadow: 10px 10px 30px rgb(70, 70, 70);
+}
+.logo {
+  font-size: 2rem;
+  align-items: center;
+}
+.logo div {
+  background-color: #4b3075;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  font-weight: 600;
+  color: white;
+  border-radius: 70px;
+}
+.registrationForm {
+  justify-content: center !important;
+}
+@media screen {
+  
+}

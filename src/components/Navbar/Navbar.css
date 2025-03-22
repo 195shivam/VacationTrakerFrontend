@@ -1,0 +1,28 @@
+.fs {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.navBar {
+  background-color: #412a68;
+  /* font-family: "Roboto Condensed", serif; */
+  /* font-family: "Roboto", serif; */
+  /* font-family: "PT Sans", serif; */
+  /* font-family: "Nunito", serif; */
+  
+}
+.logOutBtn {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-top: 4px;
+  width: 10%;
+  padding: 7px;
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  z-index: 1;
+}
+@media (max-width: 700px) {
+  .logOutBtn{
+    width: 25%;
+  }
+}
